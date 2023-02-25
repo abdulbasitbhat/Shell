@@ -1,0 +1,34 @@
+Core part of shell is command line interpreter CLI
+two functons
+1.reads and parses the commands entered  //executes in front end
+2.executes these parced command  //executes at back ebd
+
+parsing: dividing input into tokens
+token contains one or more characters
+each tken is a single unit of input
+
+these tokens are stored in ast(sbstract syntax tree)
+executer picks from it and executes that command
+
+when shell is running it is in repl loop
+read eval print loop (user interactive mode)
+
+symbol table:
+a structure storing variables. Evironment variables or global 
+variables its values and attributes
+
+built in utility: special commands that are basic components of 
+shell
+
+lifeline of a shell: 
+initialization:when we start shell some config files are loaded
+interpretation: repl loop
+termination: closing shell
+
+
+
+
+
+
+
+
